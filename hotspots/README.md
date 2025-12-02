@@ -10,6 +10,5 @@ For example, `arrow.svg` that can be found in `src` directory has hotspot at
 
 But in actuall `.hotspot` file it will look like that:
 ```
-# arrow.hotspot
 0 50
 ```
