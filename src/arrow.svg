@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="arrow.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0821458"
+     inkscape:cx="-84.092178"
+     inkscape:cy="212.54067"
+     inkscape:window-width="2546"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="msg">
+    <text
+       xml:space="preserve"
+       style="font-size:18.3444px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.99999;stroke-dasharray:none;stroke-dashoffset:145.134;stroke-opacity:1;paint-order:stroke fill markers"
+       x="-202.19768"
+       y="47.921097"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8"
+         x="-202.19768"
+         y="47.921097">HOTSPOT AT (0;50)</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:145.134;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m -40.709045,44.132028 37.5611233,6.173595 -5.6540341,-5.440098 6.2652811,5.959657 -7.2432764,2.964548"
+       id="path3"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     inkscape:label="cursor"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       id="path1"
+       style="stroke:#ffffff;stroke-width:6.65017;stroke-dasharray:none;stroke-dashoffset:145.134;stroke-opacity:1;paint-order:stroke fill markers"
+       inkscape:transform-center-x="0.068467169"
+       inkscape:transform-center-y="-4.6991693"
+       d="M 3.3250859,58.027465 26.511175,81.213554 12.599522,80.551094 3.3250859,91.15045 Z"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
