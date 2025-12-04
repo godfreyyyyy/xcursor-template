@@ -4,19 +4,24 @@
 # cursor themes. Feel free to change them.
 
 # Theme name
-theme_name="XCursor Template Cursor Theme"
+THEME_NAME="XCursor Template Cursor Theme"
 
 # Theme comment
-theme_comment=""
+THEME_COMMENT=""
 
-path_theme_name="xcursor_template_theme"
-src_dir="src"
-hotspots_dir="hotspots"
-symlinks_dir="symlinks"
-imgs_dir="imgs"
-cursors_dir="cursors"
-builds_dir="build"
+PATH_THEME_NAME="xcursor_template_theme"
+
+SRC_DIR="src"
+ANIMTIMES_DIR="frametimes"
+HOTSPOTS_DIR="hotspots"
+SYMLINKS_DIR="symlinks"
+IMGS_DIR="imgs"
+CURSORS_DIR="cursors"
+BUILDS_DIR="build"
 
 # Resolutions for which cursor themes will be generated.
 # At least one resolution must be provided.
-resolutions=(16 24 32 48 64 72 80 96 128)
+RESOLUTIONS=(16 24 32 48 64 72 80 96 128)
+
+# Default animation time for animated cursors (in ms)
+DEFAULT_FRAMETIME=50

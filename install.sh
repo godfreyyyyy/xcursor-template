@@ -6,11 +6,15 @@
 . vars.sh
 
 install_for_root() {
-  cp -r $builds_dir/* /usr/share/icons
+  echo "Installing all generated cursor themes in /usr/share/icons ..."
+  cp -r $BUILDS_DIR/* /usr/share/icons
+  echo "Installing all generated cursor themes in /usr/share/icons ... DONE"
 }
 
 install_for_user() {
-  cp -r $builds_dir/* $HOME/.local/share/icons
+  echo "Installing all generated cursor themes in $HOME/.local/share/icons ..."
+  cp -r $BUILDS_DIR/* $HOME/.local/share/icons
+  echo "Installing all generated cursor themes in $HOME/.local/share/icons ... DONE"
 }
 
 if [ "$EUID" -ne 0 ]

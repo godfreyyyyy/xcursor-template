@@ -14,7 +14,8 @@ Otherwise, it will place them at `$HOME/.local/share/icons` directory.
 
 `clean.sh` will remove all build artifacts.
 
-`src` directory contains your source `.SVG` cursor files.
+`src` directory contains your source `.SVG` cursor images __or__ directories
+with `.SVG` frames for an animated cursors.
 
 `symlinks` directory contains optional `.links` files for cursors.
 In these files symlinks for cursors are defined.
@@ -24,6 +25,12 @@ Learn more in [`symlinks/README.md`](symlinks/README.md).
 In these files hotspots for cursors are defined. If file is not provided,
 `compile.sh` script will set cursor hotspots to `(0;0)`.
 Learn more in [`hotspots/README.md`](hotspots/README.md).
+
+`frametimes` directory contains optional `.frametime` files for animated
+cursors. In these files frametimes (in milliseconds) are defined. If file is
+not provided, `compile.sh` script will set frametime to a `$DEFAULT_FRAMETIME`
+that can be changed in `var.sh` script.
+Learn more in [`frametimes/README.md`](frametimes/README.md).
 
 ## Requirements
 `bc`, `inkscape` and `xcursorgen` must be installed to compile cursor themes.

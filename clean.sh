@@ -2,6 +2,6 @@
 
 . vars.sh
 
-rm -rf $builds_dir
-rm -rf $cursors_dir
-rm -rf $imgs_dir
+rm -rf $BUILDS_DIR
+rm -rf $CURSORS_DIR
+rm -rf $IMGS_DIR
